@@ -1,0 +1,8 @@
+imports:
+    - { resource: '@BitBagSyliusProductBundlePlugin/Resources/config/resources.yml' }
+    - { resource: '@BitBagSyliusProductBundlePlugin/Resources/config/services.xml' }
+
+framework:
+    messenger:
+        buses:
+            bitbag_sylius_product_bundle.command_bus: ~
